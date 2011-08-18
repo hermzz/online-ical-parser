@@ -1,5 +1,7 @@
 <?php
 
+header('Content-Type: text/html; charset=utf-8');
+
 require_once 'ical.php';
 
 if(isset($_POST['ical_url']))
